@@ -7,9 +7,7 @@
 </template>
 
 <script setup>
+  definePageMeta({ layout: 'products' })
+
   const { id } = useRoute().params   //Get the route parameters
 </script>
-
-
-<style scoped>
-</style>
