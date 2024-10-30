@@ -17,7 +17,9 @@
   "description": "Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.2"
+  },
   "author": "",
   "license": "ISC"
 }

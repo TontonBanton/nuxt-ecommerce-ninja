@@ -1,27 +1,21 @@
 <template>
-
-  <div>
-    <header>
-      <nav>
-        <li><NuxtLink to="/">Nuxt Ecommerce</NuxtLink> </li>
+    <header class="shadow-sm">
+      <nav class="container mx-auto p-4">
+        <li class="font-bold"><NuxtLink to="/">Nuxt Ecommerce</NuxtLink> </li>
       </nav>
     </header>
-  </div>
-
-  <!-- PAGES SLOT -->
-  <div>
-    <slot/>
-  </div>
-
-  <!--FOOTER -->
-  <footer>
-    <ul>
-      <li><NuxtLink to="/">Home</NuxtLink> </li>
-      <li><NuxtLink to="/about">About</NuxtLink> </li>
-      <li><NuxtLink to="/products">Products</NuxtLink> </li>
-    </ul>
-  </footer>
-
+    <!-- PAGES SLOT -->
+    <div class="bg-gray-300 container mx-auto p-4">
+      <slot/>
+    </div>
+    <!--FOOTER -->
+    <footer class="container mx-auto p-4 flex justify-center">
+      <ul class="flex gap-4">
+        <li><NuxtLink to="/">Home</NuxtLink> </li>
+        <li><NuxtLink to="/about">About</NuxtLink> </li>
+        <li><NuxtLink to="/products" class="btn">Products</NuxtLink> </li>
+      </ul>
+    </footer>
 </template>
 
 <style scoped>
