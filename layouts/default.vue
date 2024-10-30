@@ -1,7 +1,7 @@
 <template>
     <header class="shadow-sm">
       <nav class="container mx-auto p-4 flex justify-between">
-        <li class="font-bold"><NuxtLink to="/">Nuxt Ecommerce</NuxtLink> </li>
+        <li class="font-bold"><NuxtLink to="/">Nuxt ECom Home</NuxtLink> </li>
         <ul class="flex gap-4">
           <li><NuxtLink to="/">Home</NuxtLink> </li>
           <li><NuxtLink to="/about">About</NuxtLink> </li>

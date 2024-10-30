@@ -1,7 +1,7 @@
 <template>
     <header class="shadow-sm">
       <nav class="container mx-auto p-4">
-        <li class="font-bold"><NuxtLink to="/">Nuxt Ecommerce</NuxtLink> </li>
+        <li class="font-bold"><NuxtLink to="/">Nuxt ECom Home</NuxtLink> </li>
       </nav>
     </header>
     <!-- PAGES SLOT -->
