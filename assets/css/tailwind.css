@@ -2,19 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-gray-600;
-}
-h2 {
-  @apply mb-5 text-3xl;
-}
-
-p {
-  @apply my-5;
-}
+header { @apply bg-gray-500; }
+body { @apply bg-white; }
+h2 { @apply mb-3 text-3xl; }
+p { @apply my-3; }
 
 @layer components {
   .btn {
-    @apply bg-orange-700 text-white px-3 py-2 rounded-md text-sm text-white;
+    @apply bg-orange-500 px-3 py-2 rounded-md text-sm text-white inline-block w-full;
+  }
+  .card {
+    @apply p-3 rounded-md bg-white shadow-md h-full;
   }
 }

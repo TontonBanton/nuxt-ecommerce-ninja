@@ -1,12 +1,11 @@
 <template>
   <div>
-    <p>{{ product.title }}</p>
-    <p>{{ product.price }}</p>
+    <ProductDetails :product="product" />
   </div>
 </template>
 
 <script setup>
-  definePageMeta({ layout: 'products' })
+  //definePageMeta({ layout: 'products' })
 
   const { id } = useRoute().params
   const uri = 'https://fakestoreapi.com/products/' + id
