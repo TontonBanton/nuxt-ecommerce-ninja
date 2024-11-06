@@ -10,5 +10,7 @@ export default defineNuxtConfig({
       meta: [{ name: 'description', content: 'Everything about Nuxt 3' }],
       link: [{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }]
     }
-  }
+  },
+
+  compatibilityDate: '2024-11-06'
 })
