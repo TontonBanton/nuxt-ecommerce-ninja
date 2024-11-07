@@ -15,11 +15,13 @@
 
 <script setup>
 
-  const { data, error } = await useFetch('/api/test')
+  //const { data, error } = await useFetch('/api/test')
+  const { data, error } = await useFetch('/api/currency/GBP')
   if (error.value) {
     console.error(error.value)
   }
-  //SERVER ROUTES
+
+  //SERVER ROUTES---
   //const { data } = await useFetch('/api/test')
   //const { data } = await useFetch('/api/test?name=leling')
   // const { data } = await useFetch('/api/test?name=leling', {

@@ -12,5 +12,7 @@ export default defineNuxtConfig({
     }
   },
 
-  compatibilityDate: '2024-11-06'
+  runtimeConfig: {
+    currencyKey: process.env.CURRENCY_API_KEY
+  }
 })
